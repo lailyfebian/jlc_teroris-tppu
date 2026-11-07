@@ -1362,7 +1362,7 @@ h1, h2, h3, h4, h5, h6{
     height: 70px;
     margin: 0 auto 20px;
     border-radius: 50%;
-    background: #17356E;
+    background: var(--secondary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1371,7 +1371,7 @@ h1, h2, h3, h4, h5, h6{
 
 .why-us-item:hover .why-us-icon {
     transform: translateY(-5px) scale(1.08);
-    background: var(--secondary);
+    background: var(--primary-light);
 }
 
 .why-us-icon i {
@@ -1381,7 +1381,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .why-us-item:hover .why-us-icon i {
-    color: #fff;
+    color: var(--secondary);
 }
 
 .why-us-item .subtitle {
@@ -2821,7 +2821,7 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(200, 154, 61, 0.35);
+    background: #C2AD85;
     border-radius: 18px;
 }
 
