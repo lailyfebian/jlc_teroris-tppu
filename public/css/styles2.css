@@ -1375,7 +1375,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .why-us-icon i {
-    color: var(--secondary);
+    color: #fff;
     font-size: 34px;
     transition: .3s;
 }
