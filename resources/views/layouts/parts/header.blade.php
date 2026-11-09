@@ -1,27 +1,48 @@
-<header class="header-section">
-    <nav class="navbar navbar-expand-lg navbar-section">
-        <div class="container">
-            <a class="navbar-brand navbar-logo" href="{{ url('/') }}">
-                <img src="{{ asset('images/logo-commander.webp') }}" alt="Logo Website Bimbel Commander">
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="{{ url('/') }}">
+            <img src="{{ asset('images/logo-header.webp') }}"alt="Logo Justicia Legal Counsel">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"
+             id="navbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{ url('/') }}">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Layanan</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ url('/#arbitrase') }}">Arbitrase</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/#corporate') }}">Corporate & Business</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/#keluarga') }}">Hukum Keluarga</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/#pajak') }}">Hukum Pajak</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/#tun') }}">Hukum Tata Usaha Negara (TUN)</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/#notaris') }}">Jasa Notaris & PPAT</a></li>
+                        <li><a class="dropdown-item" href="#{{ url('/#perdata') }}">Litigasi Perdata</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/#pidana') }}">Litigasi Pidana</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/#perizinan') }}">Perizinan Usaha</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/#upaya-hukum') }}">Upaya Hukum</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('#tim-kami') }}">Tim Kami</a>
+                </li>
+                <!--<li class="nav-item">-->
+                <!--    <a class="nav-link" href="#">Testimoni</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                <!--    <a class="nav-link" href="#">Artikel</a>-->
+                <!--</li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('#kontak') }}">Kontak</a>
+                </li>
+            </ul>
+            <a href="https://wa.lawfirm-jlc.com/" class="btn btn-consult">Konsultasi Sekarang
+                <i class="bi bi-arrow-right ms-2"></i>
             </a>
-            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarMenu">
-                <i class="bi bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="{{ url('/') }}">Beranda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Program</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Tentang Kami</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Produk</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Prestasi</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Artikel</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
-                </ul>
-                <a href="https://wa.bimbelptn.com/" class="navbar-register-btn">
-                    Daftar Sekarang
-                </a>
-            </div>
         </div>
-    </nav>
-</header>
+    </div>
+</nav>

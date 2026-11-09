@@ -1,68 +1,82 @@
-<footer class="footer-section">
+<footer class="justice-footer">
     <div class="container">
-        <div class="row gy-5">
+        <div class="footer-top">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <a href="{{ url('/') }}">
+                            <img src="{{ asset('images/logo-web.jpeg') }}" alt="Justicia Legal Counsel"
+                                class="footer-logo">
+                        </a>
+                        <p class="footer-desc">
+                            Justicia Legal Counsel memberikan layanan hukum
+                            profesional untuk melindungi hak dan kepentingan
+                            Anda dengan integritas, dedikasi, dan solusi
+                            terbaik.
+                        </p>
+                    </div>
+                </div>
 
-            <div class="col-lg-4">
-                <img src="{{ asset('images/logo-commander.webp') }}" class="footer-logo" alt="Logo Bimbel Commander">
-                <p class="footer-description">
-                    Bimbel Commander adalah tempat belajar yang dirancang
-                    khusus untuk membantu siswa mencapai satu tujuan:
-                    lolos FK-PTN.
-                </p>
-                <div class="footer-social">
-                    <a href="https://www.instagram.com/@commandertaruna">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <a href="https://www.youtube.com/@bimbelcommander">
-                        <i class="bi bi-youtube"></i>
-                    </a>
-                    <a href="https://wa.bimbelptn.com/">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-widget">
+                        <h6>Layanan</h6>
+                        <ul>
+                            <li><a href="#">Arbitrase</a></li>
+                            <li><a href="#">Corporate & Business</a></li>
+                            <li><a href="#">Hukum Keluarga</a></li>
+                            <li><a href="#">Hukum Pajak</a></li>
+                            <li><a href="#">Hukum Tata Usaha Negara (TUN)</a></li>
+                            <li><a href="#">Jasa Notaris & PPAT</a></li>
+                            <li><a href="#">Litigasi Perdata</a></li>
+                            <li><a href="#">Litigasi Pidana</a></li>
+                            <li><a href="#">Perizinan Usaha</a></li>
+                            <li><a href="#">Upaya Hukum</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-widget">
+                        <h6>Tentang Kami</h6>
+                        <ul>
+                            <li><a href="#">Tim Kami</a></li>
+                            <li><a href="#">Kontak</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer-widget">
+                        <h6>Kontak Kami</h6>
+                        <ul class="footer-contact">
+                            <li>
+                                <span>
+                                    <i class="bi bi-telephone"></i>
+                                </span>
+                                <div>
+                                    +62857 7223 7707
+                                </div>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="bi bi-clock"></i>
+                                </span>
+                                <div>
+                                    Senin - Jumat <br>
+                                    09.00 - 17.00 WIB
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6">
-                <h6 class="footer-title">
-                    PROGRAM KAMI
-                </h6>
-                <ul class="footer-menu">
-                    <li><a href="#">Program Intensif Class</a></li>
-                    <li><a href="#">Program Privat (VIP)</a></li>
-                    <li><a href="#">Online Class</a></li>
-                    <li><a href="#">Program Karantina</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <h6 class="footer-title">
-                    HUBUNGI KAMI
-                </h6>
-                <ul class="footer-contact">
-                    <li>
-                        <i class="bi bi-telephone-fill"></i>
-                        <span>+62 628 - 52855 - 87384</span>
-                    </li>
-                    <li>
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <span>
-                            <b>Jakarta Timur</b> - Jalan Pulomas Barat II No.42 RT. 05 RW.13 Kayu Putih Pulo Gadung Jakarta Timur 13210
-                        </span>
-                    </li>
-                    <li>
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <span>
-                            <b>Dawala Hotel Makassar</b> - Taman Sudiang Indah No.20 Blok i8. PAI Kec. Biringkanaya Kota Makasar Sulawesi Selatan 90243
-                        </span>
-                    </li>
-                </ul>
-            </div>
         </div>
+
+        <div class="border-bottom"></div>
         <div class="footer-bottom">
-            <p>
-                © 2026 Bimbel Commander.
-                All Rights Reserved.
-            </p>
+            <div class="align-items-center">
+                <p class="copyright">© 2026 Justicia Legal Counsel</p>
+            </div>
         </div>
     </div>
 </footer>
