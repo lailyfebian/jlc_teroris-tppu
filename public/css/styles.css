@@ -287,7 +287,7 @@ body {
 
 .hero-description {
     color: #000000;
-    line-height: 1.9;
+    line-height: 1.8;
     margin-bottom: 36px;
 }
 
@@ -378,17 +378,38 @@ body {
 
 .feature-item .subtitle {
     color: #fff;
-    font-size: 18px !important;
+    font-size: 18px
     font-weight: 700;
     margin-bottom: 8px;
 }
 
-.feature-item p {
+.feature-item .description {
     color: rgba(255, 255, 255, .7);
-    font-size: 16px !important;
+    font-size: 16px;
     line-height: 1.6;
     margin: 0;
 }
+
+.hero-image {
+        margin-top: 40px;
+    }
+
+    .feature-wrapper {
+        border-radius: 16px;
+    }
+
+    .feature-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 28px 24px;
+    }
+
+    .feature-icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 10px;
+    }
 
 @media(max-width:991px) {
     .hero-section {
@@ -474,36 +495,14 @@ body {
         justify-content: center;
     }
 
-}
-
-    .hero-image {
-        margin-top: 40px;
-    }
-
-    .feature-wrapper {
-        border-radius: 16px;
-    }
-
-    .feature-item {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 28px 24px;
-    }
-
-    .feature-icon {
-        width: 64px;
-        height: 64px;
-        margin-bottom: 10px;
-    }
-
     .feature-item .subtitle {
-        font-size: 14px !important;
+        font-size: 14px;
     }
 
-    .feature-item p {
-        font-size: 12px !important;
+    .feature-item .description {
+        font-size: 12px;
     }
+
 }
 
 @media(max-width:575.98px) {
@@ -592,12 +591,6 @@ body {
     margin-bottom: 30px;
 }
 
-.about-list {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
-}
-
 .about-list-title {
     font-size: 18px;
     color: #162B5B;
@@ -606,7 +599,15 @@ body {
 }
 
 .list-unstyled p{
+    color: #4d5562;
     font-size: 16px;
+    line-height: 1.8;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
 }
 
 .about-list > li {
@@ -629,6 +630,7 @@ body {
     font-size: 20px;
     line-height: 1;
     margin: 0;
+    transform: translateY(1px);
 }
 
 .about-list > li > p {
@@ -657,6 +659,7 @@ body {
 .about-list > li > ul > li > p:last-child {
     margin-bottom: 0;
 }
+
 
 
 /* TABLET */
@@ -1010,8 +1013,8 @@ body {
 .information-content p {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    line-height: 2;
-    color: #4B5563;
+    line-height: 1.8;
+    color: #666;
     margin-bottom: 22px;
 }
 
@@ -1210,6 +1213,7 @@ body {
 .product-body p{
     font-size: 16px;
     color: #666;
+    line-height: 1.8;
 }
 
 .product-body ul {
@@ -1339,7 +1343,7 @@ body {
 .why-us-item p {
     color: rgba(255, 255, 255, .75);
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.8;
     margin: 0;
 }
 
@@ -1412,7 +1416,7 @@ body {
 }
 
 .road-header p {
-    color: #666;
+    color: #4d5562;
     font-size: 16px;
     line-height: 1.8;
 }
@@ -1473,7 +1477,7 @@ body {
 .road-item p {
     color: #666;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.8;
     margin: 0;
 }
 
@@ -1579,8 +1583,8 @@ body {
 
 .description-content p {
     font-size: 16px;
-    line-height: 1.9;
-    color: #4B5563;
+    line-height: 1.8;
+    color: #666;
     margin-bottom: 24px;
 }
 
@@ -1680,7 +1684,7 @@ body {
 
 .faq-content>p {
     color: #4B5563;
-    line-height: 1.9;
+    line-height: 1.8;
     margin-bottom: 40px;
 }
 
@@ -1912,7 +1916,7 @@ body {
 
     .cta-text p {
         font-size: 16px;
-        line-height: 1.7;
+        line-height: 1.8;
     }
 
     .btn-cta {
@@ -2075,7 +2079,7 @@ body {
 
 .footer-contact div {
     color: rgba(255, 255, 255, .82);
-    line-height: 1.9;
+    line-height: 1.8;
 }
 
 .footer-bottom {
@@ -2148,7 +2152,7 @@ body {
 
     .footer-desc {
         font-size: 15px;
-        line-height: 1.9;
+        line-height: 1.8;
         margin-bottom: 0;
 
     }
@@ -2195,7 +2199,7 @@ body {
 
     .footer-desc {
         font-size: 12px;
-        line-height: 1.9;
+        line-height: 1.8;
         margin-bottom: 0;
     }
 
@@ -2662,7 +2666,7 @@ body {
     margin: 25px auto 0;
     color: #727272;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
 /* CARD */
@@ -2958,7 +2962,7 @@ body {
     
     font-size: 15px;
     font-weight: 400;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 .wilayah-grid a {
@@ -3028,7 +3032,7 @@ body {
 
     .wilayah-grid li {
         font-size: 14px;
-        line-height: 1.7;
+        line-height: 1.8;
     }
 
 }

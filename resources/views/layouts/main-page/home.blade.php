@@ -50,7 +50,7 @@
                                     </div>
                                     <div>
                                         <p class="subtitle">Profesional</p>
-                                        <p>Pendampingan dilakukan oleh advokat dengan memperhatikan kompetensi, etika profesi, serta ketentuan hukum yang mengatur tindak pidana terorisme, tindak pidana pencucian uang, dan prosedur penegakan hukum.
+                                        <p  class="description">Pendampingan dilakukan oleh advokat dengan memperhatikan kompetensi, etika profesi, serta ketentuan hukum yang mengatur tindak pidana terorisme, tindak pidana pencucian uang, dan prosedur penegakan hukum.
                                         </p>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@
                                     </div>
                                     <div>
                                         <p class="subtitle">Integritas</p>
-                                        <p>Setiap penanganan perkara mengutamakan kejujuran, tanggung jawab profesional, kerahasiaan informasi klien, serta penghormatan terhadap hak-hak setiap pihak yang terlibat.
+                                        <p  class="description">Setiap penanganan perkara mengutamakan kejujuran, tanggung jawab profesional, kerahasiaan informasi klien, serta penghormatan terhadap hak-hak setiap pihak yang terlibat.
                                         </p>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@
                                     </div>
                                     <div>
                                         <p class="subtitle">Komunikatif</p>
-                                        <p>Klien memperoleh penjelasan mengenai prosedur hukum, kebutuhan dokumen, perkembangan penanganan perkara, serta pilihan langkah hukum yang dapat dipertimbangkan berdasarkan kondisi yang dihadapi.
+                                        <p class="description">Klien memperoleh penjelasan mengenai prosedur hukum, kebutuhan dokumen, perkembangan penanganan perkara, serta pilihan langkah hukum yang dapat dipertimbangkan berdasarkan kondisi yang dihadapi.
                                         </p>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@
                                     </div>
                                     <div>
                                         <p class="subtitle">Berorientasi pada Kebutuhan Klien</p>
-                                        <p>JLC mengidentifikasi kebutuhan pendampingan berdasarkan posisi hukum klien, karakteristik dugaan tindak pidana, keterkaitan transaksi keuangan, dan tahapan penanganan perkara yang sedang berlangsung.
+                                        <p class="description">JLC mengidentifikasi kebutuhan pendampingan berdasarkan posisi hukum klien, karakteristik dugaan tindak pidana, keterkaitan transaksi keuangan, dan tahapan penanganan perkara yang sedang berlangsung.
                                         </p>
                                     </div>
                                 </div>
